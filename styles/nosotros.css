@@ -1,0 +1,39 @@
+a.text-reset {
+    text-decoration: none !important;
+}
+
+.img-redondeada {
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-redondeada:hover {
+    transform: scale(1.1);
+}
+
+.bg-custom {
+    background-color: #ffffff;
+}
+
+.rounded-custom {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.rounded-custom:hover {
+    transform: scale(1.05);
+}
+
+.rounded-circle {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
