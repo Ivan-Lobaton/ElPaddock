@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Paddock | Nosotros</title>
-    <link rel="shortcut icon" href="/imgs/logo/EPLogo.png" type="image/x-icon">
-    <link rel="stylesheet" href="/styles/style.css">
-    <link rel="stylesheet" href="/styles/servicios.css">
-    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../imgs/logo/EPLogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/servicios.css">
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 </head>
 
@@ -29,10 +29,10 @@
     </div>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="/imgs/logo/EPLogo.png" alt="EP Logo" height="30">
+                <img src="../imgs/logo/EPLogo.png" alt="EP Logo" height="30">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
         </div>
     </nav>
 
-    <!-- Título y eslogan -->
+    <!-- Título y descripcion -->
     <div class="container text-center mt-5">
         <h1 class="display-1 fw-bold text-white">Nuestros servicios</h1>
         <p class="lead text-white">Te ofrecemos una variedad de herramientas y funciones diseñadas para llevar tu
@@ -70,35 +70,85 @@
             emocionante.</p>
     </div>
 
-    <!-- Tarjeta 1 -->
-    <div style="padding: 30px;">
-        <div class="card mb-3 mt-5" style="background-color: #00c2b5;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
+    <!-- Imagen y texto 1 -->
+    <div class="row align-items-center mt-5">
+        <div class="col-md-6 offset-md-1">
+            <!-- Imagen -->
+            <img src="../imgs/servicios1.webp" alt="Imagen" class="img-fluid img-redondeada"
+                style="max-width: 470px; height: auto;">
+        </div>
+        <div class="col-md-4" style="text-align: center; margin-left: -50px;">
+            <!-- Título y descripción -->
+            <h2 style="color: white; font-weight: bold; font-size: 2.5em;">✨Ultimas noticias✨</h2>
+            <p style="color: white; font-size: 1.2em;">Mantente al día con todas las noticias y eventos del emocionante
+                mundo de la Formula 1. Nuestro servicio de noticias en tiempo real te ofrece la información más reciente
+                sobre carreras, equipos, pilotos y más. Desde análisis de rendimiento hasta actualizaciones de último
+                minuto, estamos aquí para mantenerte informado y emocionado en todo momento.</p>
         </div>
     </div>
 
-    <!-- Tarjeta 3 -->
-    <div style="padding: 30px;">
-        <div class="card mb-3 mt-5" style="background-color: #009de0;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
+    <!-- Imagen y texto 2 -->
+    <div class="row align-items-center mt-5">
+        <div class="col-md-6 offset-md-1">
+            <!-- Imagen -->
+            <img src="../imgs/servicios2.webp" alt="Imagen" class="img-fluid img-redondeada"
+                style="max-width: 470px; height: auto;">
+        </div>
+        <div class="col-md-4" style="text-align: center; margin-left: -50px;">
+            <!-- Título y descripción -->
+            <h2 style="color: white; font-weight: bold; font-size: 2.5em">✨Autos favoritos✨</h2>
+            <p style="color: white; font-size: 1.2em;">Personaliza tu experiencia en la Formula 1 creando tu propia
+                lista de autos favoritos. Desde icónicos modelos clásicos hasta las últimas innovaciones en ingeniería
+                automotriz, puedes agregar y organizar tus vehículos preferidos para acceder fácilmente a ellos en
+                cualquier momento. ¡Haz que tu pasión por los autos de carrera sea aún más emocionante con este servicio
+                exclusivo!</p>
         </div>
     </div>
 
-    <!-- Tarjeta 3 -->
-    <div style="padding: 30px;">
-        <div class="card mb-3 mt-5" style="background-color: #ffffff;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <!-- Imagen y texto 3 -->
+    <div class="row align-items-center mt-5">
+        <div class="col-md-6 offset-md-1">
+            <!-- Imagen -->
+            <img src="../imgs/servicios3.webp" alt="Imagen" class="img-fluid img-redondeada"
+                style="max-width: 470px; height: auto;">
+        </div>
+        <div class="col-md-4" style="text-align: center; margin-left: -50px;">
+            <!-- Título y descripción -->
+            <h2 style="color: white; font-weight: bold; font-size: 2.5em">✨Pilotos favoritos✨</h2>
+            <p style="color: white; font-size: 1.2em;">Mantén un seguimiento de tus pilotos favoritos de la Formula 1
+                con nuestra lista personalizable de pilotos favoritos. Ya sea que admires su habilidad en la pista o su
+                carisma fuera de ella, puedes agregar a tus corredores preferidos a esta lista para estar al tanto de
+                sus últimas actuaciones y logros. ¡Convierte tu pasión por los pilotos en una experiencia más
+                personalizada y emocionante!</p>
+        </div>
+    </div>
+
+    <!-- Títulos e invitacion -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 border-end border-white pe-4">
+                <!-- Título e invitación 1 -->
+                <h1 class="display-1 fw-bold text-white">Registrate</h1>
+                <p class="lead text-white">¿Listo para vivir la emoción de la Formula 1 al máximo? ¡Regístrate ahora y
+                    únete a nuestra comunidad de entusiastas de la velocidad! Obtén acceso exclusivo a noticias,
+                    actualizaciones y funciones personalizadas para disfrutar al máximo de tu pasión por el
+                    automovilismo.</p>
+                <!-- Botón de registro -->
+                <div class="mt-3">
+                    <a href="registrarse.html" class="btn btn-outline-light btn-lg">Registrarse</a>
+                </div>
+            </div>
+            <div class="col-lg-6 border-start border-white ps-4">
+                <!-- Título e invitación 2 -->
+                <h1 class="display-1 fw-bold text-white text-end">Inicia sesión</h1>
+                <p class="lead text-white text-end">¡Bienvenido de vuelta a la pista! Inicia sesión para acceder a tu
+                    cuenta personalizada y disfrutar de todas las características y beneficios que ofrecemos. Desde
+                    seguir tus pilotos y equipos favoritos hasta personalizar tu experiencia en la página, estamos aquí
+                    para hacer que cada momento sea inolvidable.</p>
+                <!-- Botón de iniciar sesión -->
+                <div class="mt-3 text-end">
+                    <a href="iniciarsesion.html" class="btn btn-outline-light btn-lg">Iniciar sesión</a>
+                </div>
             </div>
         </div>
     </div>

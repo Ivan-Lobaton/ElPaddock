@@ -1,3 +1,12 @@
 a.text-reset {
     text-decoration: none !important;
 }
+
+.img-redondeada {
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-redondeada:hover {
+    transform: scale(1.1);
+}

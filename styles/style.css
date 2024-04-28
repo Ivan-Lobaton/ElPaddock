@@ -1,19 +1,19 @@
 body {
     font-family: 'Exo', sans-serif;
-    margin: 0; /* Agrega margen cero para eliminar el espacio adicional */
-    padding: 0; /* Agrega relleno cero para eliminar el espacio adicional */
-    overflow-x: hidden; /* Oculta la barra de desplazamiento horizontal */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 .area {
     background: #000000;
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
     width: 100%;
-    height: 100vh; /* Ocupa el 100% del viewport */
-    position: fixed; /* Se fija en la pantalla */
-    top: 0; /* Se fija en la parte superior */
-    left: 0; /* Se fija en la parte izquierda */
-    z-index: -1; /* Colócalo detrás del contenido */
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .circles {
@@ -40,12 +40,12 @@ body {
 .circles li:nth-child(5),
 .circles li:nth-child(7),
 .circles li:nth-child(10) {
-    left: 10%; /* Ajusta la posición para distribuir los cuadrados */
+    left: 10%;
     width: 20px;
     height: 20px;
     animation-delay: 2s;
     animation-duration: 12s;
-    background: #00c2b5; /* Cambia el color de fondo a turquesa */
+    background: #00c2b5;
 }
 
 .circles li:nth-child(2){
@@ -115,8 +115,6 @@ body {
     animation-delay: 0s;
     animation-duration: 11s;
 }
-
-
 
 @keyframes animate {
 
